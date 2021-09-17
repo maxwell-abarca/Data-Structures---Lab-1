@@ -66,17 +66,17 @@ string Estudiante::clasificacion(int nP)
 
     if (notaPromedio >= 36 && notaPromedio <= 40)
     {
-        resultado = "Alto rendimiento";
+        resultado = "El estudiante obtuvo un alto rendimiento";
     }
 
     if (notaPromedio >= 28 && notaPromedio <= 35)
     {
-        resultado = "Mediano rendimiento";
+        resultado = "El estudiante obtuvo un mediano rendimiento";
     }
 
     if (notaPromedio < 28)
     {
-        resultado = "Bajo rendimiento";
+        resultado = "El estudiante obtuvo un bajo rendimiento";
     }
     return resultado;
 }

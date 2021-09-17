@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Maxwell/Desktop/Universidad Cenfotec/Estructuras de Datos 1/Lab1/Estudiante.h
+iostream
+-
+string
+-
+
+C:/Users/Maxwell/Desktop/Universidad Cenfotec/Estructuras de Datos 1/Lab1/main.cpp
+iostream
+-
+string
+-
+Estudiante.h
+C:/Users/Maxwell/Desktop/Universidad Cenfotec/Estructuras de Datos 1/Lab1/Estudiante.h
+
